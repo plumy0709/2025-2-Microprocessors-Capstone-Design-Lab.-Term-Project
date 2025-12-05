@@ -1,0 +1,2 @@
+# 2025-2-Microprocessors-Capstone-Design-Lab.-Term-Project
+2025학년도 2학기 마이크로프로세서설계실험 과목의 텀 프로젝트 (4인 1조 팀 단위로 진행) 코드 및 설계 백업본입니다. 
