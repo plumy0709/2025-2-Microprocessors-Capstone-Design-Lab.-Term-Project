@@ -1200,15 +1200,6 @@ void LCD_Clear(void)
     delay_1ms(2);
 }
 
-//LCD 홈 (커서를 첫 위치로 보냄)
-//1q2w3e4r|을
-//|________ 모양으로 바꿔줌
-void LCD_Home(void)
-{
-    LCD_Write_Command(0x02);
-    delay_1ms(2);
-}
-
 //LCD 윗줄에 쓸 1줄 설정 (자동으로 lcd에 반영)
 void Set_LCD_Line1(const char *text)
 {
@@ -2212,3 +2203,4 @@ void PORTC_IRQHandler(void)
         PORTC_PCR13 |= (1 << ISF_BIT);
     }
 }
+
